@@ -79,6 +79,11 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
+  .grid-list button:hover {
+    background-color:#405D72;
+
+  }
+
   .grid-list button {
     animation: fade-down 2s;
     flex: 0 1 40%;
@@ -108,6 +113,10 @@ body {
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  button:hover {
+    background-color: #758694;
   }
 
   @keyframes fade-down{
