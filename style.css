@@ -9,9 +9,10 @@ body {
   }
   
   header {
+
     background-color: #758694;
     color: #FFF8F3;
-    padding: 20px;
+    padding: 8%;
     text-align: center;
   }
   
@@ -19,7 +20,7 @@ body {
     background: #405D72;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 2%;
     font-size: 32px;
   }
 
@@ -49,9 +50,11 @@ body {
   
   
   h2 {
+    animation: fade-down 1s;
     background-color: #405D72;
     color: #FFF8F3;
     padding: 20px;
+    margin: 5%;
     text-align: center;
   }
 
@@ -72,12 +75,14 @@ body {
     padding: 10px;
     text-align: center;
     border-radius: 5px;
+    font-size: 125%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
   .grid-list button {
+    animation: fade-down 2s;
     flex: 0 1 40%;
-    
+    font-size: 125%;
     background-color: #758694;
     color: #FFF8F3;
     padding: 10px;
@@ -87,5 +92,47 @@ body {
     
   }
   p {
+    font-size: 150%;
     text-align: center;
   }
+
+  .time-spent {
+    text-align: center;
+    font-size: 125%;
+  }
+
+  button {
+    background-color: #405D72;
+    color: #FFF8F3;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  @keyframes fade-down{
+    0% {
+      opacity: 0;
+      transform: translateY(-35px) scale(0.9);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+    
+  }
+
+  @keyframes fade-right{
+    0% {
+      opacity: 0;
+      transform: translateX(-100px) scale(0.9);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0px) scale(1);
+    }
+    
+  }
+  
