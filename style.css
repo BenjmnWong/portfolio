@@ -69,7 +69,7 @@ body {
   
   .grid-list div {
     flex: 0 1 40%;
-    
+    animation: fade-down 2s;
     background-color: #758694;
     color: #FFF8F3;
     padding: 10px;
